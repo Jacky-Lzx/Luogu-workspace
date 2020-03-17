@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.14)
+project(Luogu_Temp)
+
+set(CMAKE_CXX_STANDARD 14)
+
+#add_executable(Luogu_Temp main.cpp)
+#add_executable(P1098 P1098.cpp)
+#add_executable(P1141_2 P1141_2.cpp)
+#add_executable(P1141 P1141.cpp)
+#add_executable(P1226 P1226.cpp)
+#add_executable(P1908 P1908.cpp)
+#add_executable(P1908_2 P1908_2.cpp)
+#add_executable(P1908_3 P1908_3.cpp)
+#add_executable(U98105 U98105.cpp)
+#add_executable(mergesort mergesort.cpp)
+#add_executable(P1498 P1498.cpp)
+#add_executable(P1017 P1017.cpp)
+add_executable(P1147 P1147.cpp)
