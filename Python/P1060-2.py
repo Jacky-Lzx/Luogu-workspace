@@ -1,3 +1,6 @@
+
+# ! TLE
+
 class thing:
     def __init__(self):
         self.money = 0
