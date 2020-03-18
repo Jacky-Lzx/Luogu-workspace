@@ -60,7 +60,7 @@ for(int i=1;i<=n;i++)
     for(int c=0;c<=m;c++)
     {
         if(c>=w[i])
-        f[c]=max(f[c],f[c-w[i]]+v[i]);
+        	f[c]=max(f[c],f[c-w[i]]+v[i]);
     }
 }
 ```
@@ -75,7 +75,7 @@ for(int i=1;i<=n;i++)
         for(int c=0;c<=m;c++)
         {
         if(c>=w[i])
-        f[c]=max(f[c],f[c-w[i]]+v[i]);
+        	f[c]=max(f[c],f[c-w[i]]+v[i]);
         }
     }
     else
@@ -85,7 +85,7 @@ for(int i=1;i<=n;i++)
          {
              for(int c=k*w[i];c>=0;c--)
              {
-                 if(c>=w[i])
+               if(c>=w[i])
                  f[c]=max(f[c],f[c-w[i]]+k*v[i]);
              }
              amount-=k;
