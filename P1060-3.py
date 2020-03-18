@@ -26,5 +26,3 @@ if __name__ == "__main__":
                 maps[i][j] = max(maps[i-1][j], maps[i-1][j-things[i].money] + things[i].money * things[i].priority)
 
     print(maps[m][n])
-
-    # test
